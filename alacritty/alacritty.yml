@@ -3,15 +3,15 @@ live_config_reload: true
 window:
   opacity: 0.95
   padding:
-    x: 18
-    y: 16
+    x: 14
+    y: 10
   dynamic_padding: false
   decorations: buttonless
 
 font:
   normal:
     family: "SFMono Nerd Font"
-    style: Regular
+    style: Medium
   size: 16.0
 
 import:
