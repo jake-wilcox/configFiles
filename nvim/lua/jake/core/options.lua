@@ -1,7 +1,11 @@
 local opt = vim.opt
 
 --line numbers
+opt.relativenumber = true
 opt.number = true
+
+--cursor stays in middle while scrolling
+opt.scrolloff=999
 
 --tabs and indentation
 opt.tabstop = 4
