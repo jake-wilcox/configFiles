@@ -4,13 +4,14 @@ require("jake.core.keymaps")
 require("jake.core.colorscheme")
 require("jake.plugins.comment")
 require("jake.plugins.nvim-tree")
-require("jake.plugins.lualine")  
+require("jake.plugins.lualine")
 require("jake.plugins.telescope")
 require("jake.plugins.nvim-cmp")
 require("jake.plugins.lsp.mason")
 require("jake.plugins.lsp.lspsaga")
 require("jake.plugins.lsp.lspconfig")
-
+require("jake.plugins.autopairs")
+require("jake.plugins.treesitter")
 
 
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
