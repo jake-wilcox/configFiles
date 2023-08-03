@@ -104,10 +104,15 @@ _G.packer_plugins = {
     path = "/Users/jake/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["dart-vim-plugin"] = {
+  ["dressing.nvim"] = {
     loaded = true,
-    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
-    url = "https://github.com/dart-lang/dart-vim-plugin"
+    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -220,21 +225,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jake/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
     url = "https://github.com/inkarkat/vim-ReplaceWithRegister"
-  },
-  ["vim-flutter"] = {
-    loaded = true,
-    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/vim-flutter",
-    url = "https://github.com/thosakwe/vim-flutter"
-  },
-  ["vim-lsc"] = {
-    loaded = true,
-    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/vim-lsc",
-    url = "https://github.com/natebosch/vim-lsc"
-  },
-  ["vim-lsc-dart"] = {
-    loaded = true,
-    path = "/Users/jake/.local/share/nvim/site/pack/packer/start/vim-lsc-dart",
-    url = "https://github.com/natebosch/vim-lsc-dart"
   },
   ["vim-maximizer"] = {
     loaded = true,

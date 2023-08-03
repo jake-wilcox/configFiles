@@ -100,12 +100,14 @@ return packer.startup(function(use)
         end,
     })
 
-
     -- flutter plugins
-    use('dart-lang/dart-vim-plugin') -- syntax highliting
-    use('thosakwe/vim-flutter')      -- flutter commands
-    use('natebosch/vim-lsc')         -- LSP
-    use('natebosch/vim-lsc-dart')    -- LSP
+    use {
+        'akinsho/flutter-tools.nvim',
+        requires = {
+            'nvim-lua/plenary.nvim',
+            'stevearc/dressing.nvim', -- optional for vim.ui.select
+        },
+    }
 
     -- auto closing
     use("windwp/nvim-autopairs")                                 -- autoclose parens, brackets, quotes, etc...

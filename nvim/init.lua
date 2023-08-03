@@ -12,7 +12,7 @@ require("jake.plugins.lsp.lspsaga")
 require("jake.plugins.lsp.lspconfig")
 require("jake.plugins.autopairs")
 require("jake.plugins.treesitter")
-
+require("jake.plugins.flutter-tools")
 
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")
